@@ -4,7 +4,6 @@ public class InvoiceTest {
 
     public static void main(String[] args) {
 
-        // Create first invoice
         Invoice invoice1 = new Invoice("P101", "USB Cable", 5, 3.5);
 
         System.out.println("=== Invoice 1 ===");
@@ -16,7 +15,6 @@ public class InvoiceTest {
 
         System.out.println();
 
-        // Create second invoice with invalid values
         Invoice invoice2 = new Invoice("P202", "Keyboard", -4, -10.0);
 
         System.out.println("=== Invoice 2 (invalid values test) ===");
@@ -28,7 +26,6 @@ public class InvoiceTest {
 
         System.out.println();
 
-        // Test setters
         invoice2.setQuantity(10);
         invoice2.setPricePerItem(12.5);
 
