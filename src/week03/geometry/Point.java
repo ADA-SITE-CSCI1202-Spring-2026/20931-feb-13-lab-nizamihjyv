@@ -5,19 +5,16 @@ public class Point {
     private float x;
     private float y;
 
-    // default constructor
     public Point() {
         this.x = 0;
         this.y = 0;
     }
 
-    // constructor with values
     public Point(float x, float y) {
         this.x = x;
         this.y = y;
     }
 
-    // copy constructor
     public Point(Point p) {
         this.x = p.x;
         this.y = p.y;
